@@ -1,0 +1,62 @@
+.blog-card {
+  background-color: white;
+  border-radius: 1px;
+  box-shadow: 0 0 2px -1px rgba(0, 0, 0, 0.75);
+  height: 450px;
+  margin: 0 auto;
+  max-width: 800px;
+  overflow: hidden;
+
+  @media (max-width: 580px) {
+    height: 350px;
+    overflow: visible;
+  }
+}
+
+.media {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.media img {
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  float: left;
+  margin: 10px;
+}
+
+.card-body {
+  color: gray;
+  height: 100%;
+
+  @media (max-width: 530px) {
+    background-color: white;
+  }
+}
+
+.tagline {
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
+.title {
+  font-style: oblique;
+  font-family: "Playfair Display SC";
+  font-size: 30px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.paragraph {
+  font-weight: 300px;
+  text-align: center;
+  font-style: italic;
+  margin: 20px;
+}
+
+input.right {
+  float: right;
+  margin-right: 100px;
+}

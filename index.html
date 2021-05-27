@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Superheroes of Marvel</title>
+</head>
+
+<body>
+  <div class='content-wrapper'>
+    <div class='navmenu'>
+      <form id='search-form'>
+        <input id='q' placeholder='Search here...' size='15' type='text' />
+        <input id='button-submit' type='submit' />
+      </form>
+      <nav id='navbar'>
+        <ul class='navbar'>
+          <li><a href='./index.html'><span itemprop='name'>Superheroes of Marvel</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+  <div class=".container-fluid">
+    <div class="group">
+      <span id="pages"></span>
+      <span class="prev">Previous</span>
+      <span class="next">Next</span>
+    </div>
+    <table id="table_sh">
+    </table>
+    <input type="button" value="Reload" class="right">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="http://www.myersdaily.org/joseph/javascript/md5.js"></script>
+  <script src="https://pagination.js.org/dist/2.1.5/pagination.js"></script>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
