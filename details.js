@@ -1,7 +1,7 @@
 const url_base = "https://gateway.marvel.com";
-const apikey = "eb21a48643b2901fea305523c0c44e18";
+const apikey = "<PUBLIC_KEY>";
 const ts = Math.random();
-const hash = md5(`${ts}0e3a61991d39296e0a077cc5d72cfb52017aa85d${apikey}`);
+const hash = md5(`${ts}<PRIVATE_KEY>${apikey}`);
 let idSuperHeroe = localStorage.getItem("id_sh");
 
 $.ajax({

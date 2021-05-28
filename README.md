@@ -32,4 +32,13 @@ la lógica debe ser realizada con las siguientes herramientas:
 
 [Docs de marvel](https://developer.marvel.com/docs)
 
+## Correr la aplicación
+
+Antes de probar la aplicación se debe probar agregar las credenciales en index.js y en detail.js
+
+```js
+const apikey = "<PUBLIC_KEY>";
+const hash = md5(`${ts}<PRIVATE_KEY>${apikey}`);
+```
+
 ¡Gracias por la oportunidad! 😁
